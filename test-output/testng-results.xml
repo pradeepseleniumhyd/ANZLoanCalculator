@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-13T21:27:38 IST" name="ANZ Loan Calculator" finished-at="2022-03-13T21:31:42 IST" duration-ms="243921">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.au.anz.runner.LoanBorrowingCalculatorRunner@6a2b953e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-03-13T21:27:38 IST" name="Chrome Test" finished-at="2022-03-13T21:31:42 IST" duration-ms="243921">
+      <class name="com.au.anz.runner.LoanBorrowingCalculatorRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.au.anz.runner.LoanBorrowingCalculatorRunner@6a2b953e]" started-at="2022-03-13T21:27:38 IST" name="setUpClass" finished-at="2022-03-13T21:27:39 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.au.anz.runner.LoanBorrowingCalculatorRunner@6a2b953e]" started-at="2022-03-13T21:27:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T21:29:16 IST" duration-ms="97526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Estimation of Loan based on required parameters"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validation of ANZ Home Loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.au.anz.runner.LoanBorrowingCalculatorRunner@6a2b953e]" started-at="2022-03-13T21:29:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T21:30:27 IST" duration-ms="71231" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Clear all fields in the loan calculator"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validation of ANZ Home Loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.au.anz.runner.LoanBorrowingCalculatorRunner@6a2b953e]" started-at="2022-03-13T21:30:27 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-13T21:31:41 IST" duration-ms="73598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validation of the error message based on insufficient data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validation of ANZ Home Loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.au.anz.runner.LoanBorrowingCalculatorRunner@6a2b953e]" started-at="2022-03-13T21:31:41 IST" name="tearDownClass" finished-at="2022-03-13T21:31:42 IST" duration-ms="720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.au.anz.runner.LoanBorrowingCalculatorRunner -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- ANZ Loan Calculator -->
+</testng-results>
